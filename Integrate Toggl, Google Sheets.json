@@ -23,7 +23,7 @@
                                 "scoped": "true",
                                 "connection": "toggl"
                             },
-                            "label": "My Toggl connection (joshua.penman@alumni.cgu.edu)"
+                            "label": "My Toggl connection"
                         }
                     }
                 },
@@ -83,7 +83,7 @@
                 "sheetId": "1.TogglData",
                 "fieldType": "number",
                 "sortOrder": "desc",
-                "spreadsheetId": "1TCRy3k-ef7na8Es_6HvnUsWk3_h3ukLxplO3IHJozng",
+                "spreadsheetId": "",
                 "tableFirstRow": "A1:CZ1",
                 "includesHeaders": true,
                 "valueRenderOption": "FORMATTED_VALUE",
@@ -114,7 +114,7 @@
                         },
                         "spreadsheetId": {
                             "mode": "chose",
-                            "label": "Josh Toggl 2022-present"
+                            "label": "Toggl 2022-present"
                         },
                         "tableFirstRow": {
                             "label": "A-CZ"
@@ -138,7 +138,7 @@
                                 "scoped": "true",
                                 "connection": "google"
                             },
-                            "label": "joshua.penman@alumni.cgu.edu (joshua.penman@alumni.cgu.edu)"
+                            "label": "redacted (redacted)"
                         }
                     }
                 },
@@ -811,7 +811,7 @@
                 "else": 1
             },
             "filter": {
-                "name": "What happens if no row number is found?",
+                "name": "If no row number is found nothing is sent down this path",
                 "conditions": []
             },
             "mapper": null,
@@ -862,7 +862,7 @@
                                 },
                                 "sheetId": "1.TogglData",
                                 "rowNumber": "{{5.`__ROW_NUMBER__`}}",
-                                "spreadsheetId": "1TCRy3k-ef7na8Es_6HvnUsWk3_h3ukLxplO3IHJozng",
+                                "spreadsheetId": "redacted",
                                 "tableFirstRow": "A1:BZ1",
                                 "valueInputOption": "USER_ENTERED"
                             },
@@ -1289,7 +1289,7 @@
                                                 "scoped": "true",
                                                 "connection": "google"
                                             },
-                                            "label": "joshua.penman@alumni.cgu.edu (joshua.penman@alumni.cgu.edu)"
+                                            "label": "redacted (redacted)"
                                         }
                                     }
                                 },
@@ -1801,7 +1801,7 @@
                                     "26": "{{formatDate(parseDate(timestamp; \"X\"); \"YYYY-MM-DD HH:mm:ss\"; \"US/Los Angeles\")}}"
                                 },
                                 "sheetId": "1.TogglData",
-                                "spreadsheetId": "1TCRy3k-ef7na8Es_6HvnUsWk3_h3ukLxplO3IHJozng",
+                                "spreadsheetId": "redacted",
                                 "tableFirstRow": "A1:BZ1",
                                 "insertDataOption": "INSERT_ROWS",
                                 "valueInputOption": "USER_ENTERED"
@@ -2233,7 +2233,7 @@
                                                 "scoped": "true",
                                                 "connection": "google"
                                             },
-                                            "label": "joshua.penman@alumni.cgu.edu (joshua.penman@alumni.cgu.edu)"
+                                            "label": " ()"
                                         }
                                     }
                                 },
